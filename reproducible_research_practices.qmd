@@ -35,16 +35,16 @@ editor: visual
     -   Helps avoid copy/paste barriers
     -   Orchestrate workflows
 
-
 ## Computational Notebooks
 
--   Authoring environment 
+-   Authoring environment
 
-    - Code chunks interspersed with natural language
-    - aka *Literate Coding*
+    -   Code chunks interspersed with natural language
+    -   aka *Literate Coding*
 
 -   Easy to read and compose
--   Graceful degradation 
+
+-   Graceful degradation
 
 ## Reports and Expressions
 
@@ -52,11 +52,9 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 
 \
 
-
 <!-- https://github.com/shafayetShafee/bsicons#readme -->
 
-{{< bi file-earmark-pdf color=#DFDFC0 size=12rem >}}  {{< bi filetype-html color=#DFDFC0 size=12rem >}} {{< bi speedometer2 color=#DFDFC0 size=12rem >}} {{< bi filteyp-pptx color=#DFDFC0 size=12rem >}} {{< bi filetype-docx color=#DFDFC0 size=12rem >}} {{< bi book color=#DFDFC0 size=12rem >}}
-
+{{< bi file-earmark-pdf color=#DFDFC0 size=12rem >}} {{< bi filetype-html color=#DFDFC0 size=12rem >}} {{< bi speedometer2 color=#DFDFC0 size=12rem >}} {{< bi filteyp-pptx color=#DFDFC0 size=12rem >}} {{< bi filetype-docx color=#DFDFC0 size=12rem >}} {{< bi book color=#DFDFC0 size=12rem >}}
 
 ## Interactivity and web applications
 
@@ -69,12 +67,14 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 ## Quarto
 
 -   Open source / free / portable
--   IMAGE Picture of a Quarto notebook
--   Jupyter Notebook
 -   Show explanatory text and code chunks
 -   Show YAML format option
 
-## Quarto
+## <span style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px;">&nbsp; Quarto Notebook in RStudio &nbsp;</span> {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
+
+## <span style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px;">&nbsp; Jupyter Notebooks &nbsp;</span> {background-image="images/rrp/labpreview.png" background-transition="fade"}
+
+## Quarto</span>
 
 -   A scientific publishing system
 -   R, Python, ObservableJS
@@ -115,15 +115,19 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 -   Track any file
 -   Use it in any environment
 
-## Scalable
+## &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; Scalable to project size {background-image="images/rrp/git_scaleability.png" background-transition="fade" background-size="contain"}
 
--   ([30 seconds](https://youtu.be/LmqQr-0Z_Dw?si=VIREI24hAzTxAkv9&t=29) )
 
-## Projects / Repos
+## Project Repositories {background-image="images/rrp/project_repos.png" background-transition="fade" background-size="contain"}
 
-https://youtu.be/LmqQr-0Z_Dw?si=C94wDYZXzm3YBN18&t=35
 
-Work on any file system, operate on at the folder level (and sub folders)
+::: aside
+<center>Work on any file system; Operates on at the folder level.</center>
+
+\
+
+\
+:::
 
 ## Archival vs version-control
 
@@ -157,9 +161,10 @@ https://youtu.be/ThC3bSs-iZA?si=1c6pIzBiMlbB5v6w&t=31
 
 -   GitHub
 -   GitLab
--   BitBuckent 
+-   BitBuckent
 
 ## Duke specific hubs
+
 -   gitlab.oit.duke.edu (netId)
 -   PACE
 -   Anywhere that data and coding happens.
