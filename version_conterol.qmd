@@ -41,6 +41,12 @@ Documenting the story of a project
 Among other features, version control enables ***time travel*** [i.e. interacting with earlier phases of a project]{style="color:gray;"}
 :::
 
+## Two-minute video
+
+ 
+
+[https://duke.is/git](https://duke.is/git){style="font-size: 3em;"}\
+
 ## Reproducibility
 
 ::: columns
@@ -212,17 +218,18 @@ The relationship between Git and GitHub is not as dangerous. Git is a tool for v
 
 \
 
+<center>
 
-<center>♠ ♠ ♠
+♠ ♠ ♠
 
-Use **Git** for projects 
+Use **Git** for projects
 
-version control, collaboration, and reproducibility 
+version control, collaboration, and reproducibility
 
 \
 
 **Choose the right tools for the job**
 
-♠</center>
+♠
 
-
+</center>
