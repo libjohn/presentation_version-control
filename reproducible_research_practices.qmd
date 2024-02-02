@@ -1,193 +1,203 @@
-The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will 
-- introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, 
-- **literate coding techniques**, 
-	- [coding notebooks](https://www.youtube.com/watch?v=42RFdADQdcI&list=PLXsA_OlR0o0PcuagC_TUl32RULZkLHI1D&index=6&pp=iAQB)
-- **version control**
-	- [git](https://www.youtube.com/watch?v=LmqQr-0Z_Dw&list=PLXsA_OlR0o0PcuagC_TUl32RULZkLHI1D&index=4&pp=iAQB)
-	- [github](https://www.youtube.com/watch?v=ThC3bSs-iZA&list=PLXsA_OlR0o0PcuagC_TUl32RULZkLHI1D&index=5&pp=iAQB)
-- **archiving** data and **code**  (GITHub)for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. 
-- In the second half of the workshop we will present a potential 
-	- end-to-end **reproducible workflow using git, RStudio,** 
-	- **Binder**, and 
-	- **Zenodo** to demonstrate some of the concepts in practice. 
+---
+title: "Reproducibile workflows"
+subtitle: "Version Control and Computational Notebooks"
+author: 
+  name: "John Little"
+  orcid: 0000-0002-3600-0972
+  affiliation:
+    - name: Duke University Libraries
+      department: Center for Data & Visualization Sciences
+      city: Durham
+      state: NC
+      country: US
+      url:  https://library.duke.edu/data
+institute: "Center for Data & Visualization Sciences"
+date: today
 
+format: 
+  revealjs:
+    #center: true
+    theme: moon
+    self-contained: true  
+    footer:  "[John R Little](https://JohnLittle.info) ● [Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    logo: images/rfun_logo.png
+license: "CC BY"
+editor: visual
+---
 
 # Notebooks
+
 ## Reproducibility
 
-- **Do everything with code!**
-	- Reduce errors
-	- Avoid copy/paste barriers
-	- Orchestrate workflows
-## Computational Notebook
-- An authoring environment where code is interspersed with natural language
-	- aka* Literate Coding*
-- Easy to read and compose
-- Graceful degradation
+-   **Do everything with code!**
+
+    -   Helps reduce repetion errors
+    -   Helps avoid copy/paste barriers
+    -   Orchestrate workflows
+
+
+## Computational Notebooks
+
+-   Authoring environment 
+
+    - Code chunks interspersed with natural language
+    - aka *Literate Coding*
+
+-   Easy to read and compose
+-   Graceful degradation 
+
 ## Reports and Expressions
-- Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, etc.) are rendered as part of the code execution
-	- icons of outputs
+
+Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, etc.) are rendered as part of the code execution
+
+\
+
+
+<!-- https://github.com/shafayetShafee/bsicons#readme -->
+
+{{< bi file-earmark-pdf color=#DFDFC0 size=12rem >}}  {{< bi filetype-html color=#DFDFC0 size=12rem >}} {{< bi speedometer2 color=#DFDFC0 size=12rem >}} {{< bi filteyp-pptx color=#DFDFC0 size=12rem >}} {{< bi filetype-docx color=#DFDFC0 size=12rem >}} {{< bi book color=#DFDFC0 size=12rem >}}
+
 
 ## Interactivity and web applications
-- Shiny
-- Flask
-- WebR
-- Plotly Dash
-- ObjservableJS
 
-## Quarto
-- Open source / free / portable
-- picture of a Quarto notebook 
-- Jupyter Notebook
-- Show explanatory text and code chunks
-- Show YAML format option
+-   Shiny
+-   Flask
+-   WebR
+-   Plotly Dash
+-   ObjservableJS
 
 ## Quarto
 
-- A scientific publishing system
-- R, Python, ObservableJS
-- Compose with standard text editors, or basic IDEs
-	- IDEs: RStudio, Jupyter, VSCode
+-   Open source / free / portable
+-   IMAGE Picture of a Quarto notebook
+-   Jupyter Notebook
+-   Show explanatory text and code chunks
+-   Show YAML format option
+
+## Quarto
+
+-   A scientific publishing system
+-   R, Python, ObservableJS
+-   Compose with standard text editors, or basic IDEs
+    -   IDEs: RStudio, Jupyter, VSCode
 
 ## Rendered Outputs
-- artifacts that document a body of work
-- are reproducible and modifiable when data or techniques change
-- Easy to update natural language explanations and re-render outputs
-- Schedule emails based on report parameters
+
+-   Artifacts that document a body of work
+-   Are reproducible and modifiable when data or techniques change
+-   Easy to update natural language explanations and re-render outputs
+-   Schedule emails based on report parameters
 
 ## Summary of benefits
-- Using natural language clearly explain data, models, and workflows
-- Reduce dependencies on outside and undocumented steps
-- Ability to expose technical code chunks depending on audience focus
-- State of the art reproducibility
-	- 21st century **container** for evidence-based, computationally-processed research
+
+-   Using natural language clearly explain data, models, and workflows
+-   Reduce dependencies on outside and undocumented steps
+-   Ability to expose technical code chunks depending on audience focus
+-   State of the art reproducibility
+    -   21st century **container** for evidence-based, computationally-processed research
 
 # Version Control
 
 ## Definition
 
-- A system to manage **projects** (repo)
-- A system to track how computer files **change over time**
-- A system that support collaborative revision
-- More than file synchronization
-- Assists in project back-ups
+-   A system to manage **projects** (repo)
+-   A system to track how computer files **change over time**
+-   A system that support collaborative revision
+-   More than file synchronization
+-   Assists in project back-ups
 
 ## Git
-- free open source
-- Wildly successful; most broadly implemented
-- In use across the globe
-- Use it on any file system
-- Track any file
-- Use it in any environment 
+
+-   Free open source
+-   Wildly successful; most broadly implemented
+-   In use across the globe
+-   Use it on any file system
+-   Track any file
+-   Use it in any environment
 
 ## Scalable
-- ([30 seconds](https://youtu.be/LmqQr-0Z_Dw?si=VIREI24hAzTxAkv9&t=29) )
-![[Pasted image 20240202135546.png]]
 
+-   ([30 seconds](https://youtu.be/LmqQr-0Z_Dw?si=VIREI24hAzTxAkv9&t=29) )
 
 ## Projects / Repos
 
 https://youtu.be/LmqQr-0Z_Dw?si=C94wDYZXzm3YBN18&t=35
 
-
-![[Pasted image 20240202135623.png]]
-
 Work on any file system, operate on at the folder level (and sub folders)
 
 ## Archival vs version-control
 
-- posterity of milestones
-- evolution tracking of workflow (transparency)
+-   Posterity of milestones
+-   Evolution tracking of workflow (transparency)
 
 ## Track change
 
-- When, Who, Why, What
-https://youtu.be/LmqQr-0Z_Dw?si=6uVJ6B8MSmx8qpdi&t=65
-
-![[Pasted image 20240202140001.png]]
-
+-   When, Who, Why, What https://youtu.be/LmqQr-0Z_Dw?si=6uVJ6B8MSmx8qpdi&t=65
 
 ## Branches
 
-- Main branch
-- Experimentation
-- Developments
-- Merging
-
+-   Main branch
+-   Experimentation
+-   Developments
+-   Merging
 
 https://youtu.be/LmqQr-0Z_Dw?si=hrl_ysJDceXkjCrk&t=96
 
-![[Pasted image 20240202140142.png]]
-
-
 ## GitHub
 
-- Profile (store and host) git repos
-- Enable collaboration across the globe or private
-- Editorial and fine-grain control
+-   Profile (store and host) git repos
+-   Enable collaboration across the globe or private
+-   Editorial and fine-grain control
 
 ## Git + GitHub
 
 https://youtu.be/ThC3bSs-iZA?si=1c6pIzBiMlbB5v6w&t=31
 
-![[Pasted image 20240202140605.png]]
-
-
 ## Hubs
-- GitHub
-- GitLab
-- BitBuckent
+
+-   GitHub
+-   GitLab
+-   BitBuckent 
+
 ## Duke specific hubs
-- gitlab.oit.duke.edu (netId)
-- Pace
-- or anywhere that data and coding happens.
+-   gitlab.oit.duke.edu (netId)
+-   PACE
+-   Anywhere that data and coding happens.
 
 ## File Distribution and Collaboration
 
-
 https://youtu.be/ThC3bSs-iZA?si=pC7vCy06CDGxzpuz&t=90
 
-![[Pasted image 20240202140851.png]]
-
 ## Push
-
-![[Pasted image 20240202140919.png]]
 
 ## Other project management features
 
 https://youtu.be/ThC3bSs-iZA?si=ShxY4bylJgkxt-zK&t=100
 
-![[Pasted image 20240202141103.png]]
-
-## Basic features 
+## Basic features
 
 Git features implemented for distribution
 
-- Push
-- Public or Private
-- Clone / Fork
-- Pull Request
-- Pull
+-   Push
+-   Public or Private
+-   Clone / Fork
+-   Pull Request
+-   Pull
 
 ## Clone
 
 https://youtu.be/ThC3bSs-iZA?si=O18MREhlOpUiwJ6w&t=143
 
-![[Pasted image 20240202141406.png]]
-
 ## Fork / PR
 
 https://youtu.be/ThC3bSs-iZA?si=kzj82KArR4WKyT-1&t=180
 
-![[Pasted image 20240202141506.png]]
-
 ## Summary
 
-- Git is used to track changes to your repo
-- GitHub is used to distribute your git repo and facility collaboration
+-   Git is used to track changes to your repo
+-   GitHub is used to distribute your git repo and facility collaboration
 
 # Containers
-
 
 ## Sharing your workspace
 
@@ -197,29 +207,26 @@ Now you can share a copy of your computational environment
 
 ## How
 
-- **Binder**: package and share reproducible computational environments
-	- mybinder.org (public BinderHub portal)
-- **Zenodo**: general, open repository to deposit research papers, data sets, code, reports and related artifacts and connect to a citable DOI.
-- Combine GitHub releases with Zenodo to archive your milestones and share the interactive computation in a binder Hub
+-   **Binder**: package and share reproducible computational environments
+    -   mybinder.org (public BinderHub portal)
+-   **Zenodo**: general, open repository to deposit research papers, data sets, code, reports and related artifacts and connect to a citable DOI.
+-   Combine GitHub releases with Zenodo to archive your milestones and share the interactive computation in a binder Hub
 
 ## Binder Hub
 
-- Easiest: mybinder.org open and public
-	- `quarto use binder`
-- Security demands may push you to use [singularity](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/software/containers/)
+-   Easiest: mybinder.org open and public
+    -   `quarto use binder`
+-   Security demands may push you to use [singularity](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/software/containers/)
 
 ## Steps
 
-1. Make a [GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) at project milestone(s)
-2. Connect [GitHub to Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
-	1. Mint a DOI to a GitHub Release (persistent identifier: citation; milestones)
-	2. With DOI, link to ORCID
-3. Create a publicly launchable, fully functional computation container of your work
-
+1.  Make a [GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) at project milestone(s)
+2.  Connect [GitHub to Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+    1.  Mint a DOI to a GitHub Release (persistent identifier: citation; milestones)
+    2.  With DOI, link to ORCID
+3.  Create a publicly launchable, fully functional computation container of your work
 
 ## Examples
 
-- https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme
-- https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme
-
-![[Pasted image 20240202144104.png]]
+-   https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme
+-   https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme
