@@ -29,7 +29,7 @@ editor: visual
 
 ## Article Production
 
-![](images/rrp/article_widget.jpg "Diagram of a Wikipedia Article by Kevin")
+![](images/rrp/article_widget.jpg "Diagram of a Wikipedia Article by Kevin https://www.flickr.com/photos/63313714@N00/4520308534")
 
 ## Reproduction
 
@@ -39,7 +39,7 @@ editor: visual
 \
 
 
-Authoring environment (not just coding environment) should enable the articulation of scholarship within a reproducible context
+Authoring and computation environment should enable the articulation of scholarship within a reproducible context
 
 
 ##  Features
@@ -111,12 +111,6 @@ Reports expressions are rendered at code execution
 -   Plotly Dash
 -   ObjservableJS
 
-## Quarto
-
--   Open source / free / portable
--   Show explanatory text and code chunks
--   Show YAML format option
-
 ## [Quarto Notebook in RStudio]{style="background-color: #002B36; border-radius: 10px; padding: 10px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
 
 ## [Jupyter Notebooks]{style="background-color: #002B36; border-radius: 5px; padding: 10px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
@@ -147,11 +141,14 @@ Reports expressions are rendered at code execution
 
 ## Definition
 
--   A system to manage **projects** (repo)
+-   A system to **manage projects** (repo)
 -   A system to track how computer files **change over time**
--   A system that support collaborative revision
+-   A system that support **collaborative revision**
+
+::: {.fragment}
 -   More than file synchronization
 -   Assists in project back-ups
+:::
 
 ## Git
 
@@ -251,6 +248,9 @@ When, Who, Why, What
 ![](images/rrp/file-distribution.png)
 
 ## Other project management features
+
+\
+
 
 ![](images/rrp/features.png)
 
