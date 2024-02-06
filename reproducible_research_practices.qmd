@@ -27,6 +27,41 @@ license: "CC BY"
 editor: visual
 ---
 
+## Article Production
+
+![](images/rrp/article_widget.jpg "Diagram of a Wikipedia Article by Kevin")
+
+## Reproduction
+
+
+\
+
+\
+
+
+Authoring environment (not just coding environment) should enable the articulation of scholarship within a reproducible context
+
+
+##  Features
+
+::: {.fragment}
+- Support composable recombination
+- Accommodate multimedia expression
+- Provide rich reporting expressions
+- Support economical portability and degrade gracefully
+- Support extensibility
+- Ensure transparency
+- Support a documentary-style project history
+- Accommodate change and collaboration
+- Be citable
+:::
+
+## Three points
+
+1. Notebooks (Literate Coding)
+2. Version Control (Git & GitHub)
+3. Sharing (Zenodo, Containers)
+
 # Notebooks
 
 ## Reproducibility
@@ -50,13 +85,23 @@ editor: visual
 
 ## Reports and Expressions
 
-Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, etc.) are rendered as part of the code execution
+\
+
+::: {.fragment .fade-in-then-out}
+Using this method, reports expressions (slides, HTML, PDF, dashboards, e-books, etc.) are rendered at code execution
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .grow .highlight-blue}
+Reports expressions are rendered at code execution
+:::
+:::
 
 \
 
 <!-- https://github.com/shafayetShafee/bsicons#readme -->
 
-{{< bi file-earmark-pdf color=#DFDFC0 size=12rem >}} {{< bi filetype-html color=#DFDFC0 size=12rem >}} {{< bi speedometer2 color=#DFDFC0 size=12rem >}} {{< bi filteyp-pptx color=#DFDFC0 size=12rem >}} {{< bi filetype-docx color=#DFDFC0 size=12rem >}} {{< bi book color=#DFDFC0 size=12rem >}}
+{{< bi file-earmark-pdf color=#eee8d5 size=12rem >}} {{< bi filetype-html color=#eee8d5 size=12rem >}} {{< bi speedometer2 color=#eee8d5 size=12rem >}} {{< bi filteyp-pptx color=#eee8d5 size=12rem >}} {{< bi filetype-docx color=#eee8d5 size=12rem >}} {{< bi book color=#eee8d5 size=12rem >}}
 
 ## Interactivity and web applications
 
@@ -72,9 +117,9 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 -   Show explanatory text and code chunks
 -   Show YAML format option
 
-## [Quarto Notebook in RStudio]{style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
+## [Quarto Notebook in RStudio]{style="background-color: #002B36; border-radius: 10px; padding: 10px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
 
-## [Jupyter Notebooks]{style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
+## [Jupyter Notebooks]{style="background-color: #002B36; border-radius: 5px; padding: 10px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
 
 ## Quarto
 
@@ -132,10 +177,10 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 \
 :::
 
-## Archival vs version-control {style="background-color: gray;"}
+## Archival vs version-control {style="background-color: #33464A; border-radius: 10px; padding: 5px;"}
 
 ::: columns
-::: {.column width="50%" style="background-color: gray;"}
+::: {.column width="50%"}
 \
 \
 
@@ -171,7 +216,7 @@ When, Who, Why, What
 -   Merging
 :::
 
-## GitHub {style="background-color: gray;"}
+## GitHub {style="background-color: #33464A; border-radius: 10px; padding: 5px;"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -203,13 +248,11 @@ When, Who, Why, What
 
 ## File Distribution and Collaboration
 
-https://youtu.be/ThC3bSs-iZA?si=pC7vCy06CDGxzpuz&t=90
-
-## Push
+![](images/rrp/file-distribution.png)
 
 ## Other project management features
 
-https://youtu.be/ThC3bSs-iZA?si=ShxY4bylJgkxt-zK&t=100
+![](images/rrp/features.png)
 
 ## Basic features
 
@@ -221,13 +264,18 @@ Git features implemented for distribution
 -   Pull Request
 -   Pull
 
+## Push
+
+![](images/rrp/push.png)
+
+
 ## Clone
 
-https://youtu.be/ThC3bSs-iZA?si=O18MREhlOpUiwJ6w&t=143
+![](images/rrp/clone.png)
 
 ## Fork / PR
 
-https://youtu.be/ThC3bSs-iZA?si=kzj82KArR4WKyT-1&t=180
+![](images/rrp/fork.png)
 
 ## Summary
 
@@ -238,9 +286,23 @@ https://youtu.be/ThC3bSs-iZA?si=kzj82KArR4WKyT-1&t=180
 
 ## Sharing your workspace
 
-Ever been tempted to give someone else your laptop so they can play around with your projects, the code, the data, the settings and configurations?
+**Your** computation workspace 
+(i.e. your laptop, desktop, cloud credentials)
+
+. . . 
+
+Give someone else your laptop so they can play around with your projects
+
+. . . 
+
+- the code, the data, the settings and configurations?
+- Good idea?
+
+. . . 
 
 Now you can share a copy of your computational environment
+
+
 
 ## How
 
