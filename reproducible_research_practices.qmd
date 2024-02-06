@@ -17,7 +17,9 @@ date: today
 format: 
   revealjs:
     #center: true
-    theme: moon
+    transition: fade
+    background-transition: fade
+    theme: [moon]
     self-contained: true  
     footer:  "[John R Little](https://JohnLittle.info) ● [Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
     logo: images/rfun_logo.png
@@ -70,11 +72,11 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 -   Show explanatory text and code chunks
 -   Show YAML format option
 
-## <span style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px;">&nbsp; Quarto Notebook in RStudio &nbsp;</span> {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
+## [Quarto Notebook in RStudio]{style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
 
-## <span style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px;">&nbsp; Jupyter Notebooks &nbsp;</span> {background-image="images/rrp/labpreview.png" background-transition="fade"}
+## [Jupyter Notebooks]{style="color: steelblue !important; background-color: ivory; border-radius: 10px; padding: 5px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
 
-## Quarto</span>
+## Quarto
 
 -   A scientific publishing system
 -   R, Python, ObservableJS
@@ -115,47 +117,77 @@ Using this method, reports (expressions such as slide, PDF, dashboards, ebooks, 
 -   Track any file
 -   Use it in any environment
 
-## &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; Scalable to project size {background-image="images/rrp/git_scaleability.png" background-transition="fade" background-size="contain"}
+## Scalable to project size
 
+![](images/rrp/git_scaleability.png)
 
-## Project Repositories {background-image="images/rrp/project_repos.png" background-transition="fade" background-size="contain"}
+## Project Repositories
 
+![](images/rrp/project_repos.png)
 
 ::: aside
-<center>Work on any file system; Operates on at the folder level.</center>
-
-\
+-   Work on any file system
+-   Operates on at the folder level
 
 \
 :::
 
-## Archival vs version-control
+## Archival vs version-control {style="background-color: gray;"}
 
--   Posterity of milestones
--   Evolution tracking of workflow (transparency)
+::: columns
+::: {.column width="50%" style="background-color: gray;"}
+\
+\
+
+![  Zenodo logo - Posterity of milestones\
+](images/rrp/zenodo.jpg)
+:::
+
+::: {.column width="50%"}
+![Git - track evolution of workflow (i.e. transparency)](images/rrp/git.png)
+:::
+:::
 
 ## Track change
 
--   When, Who, Why, What https://youtu.be/LmqQr-0Z_Dw?si=6uVJ6B8MSmx8qpdi&t=65
+\
+
+![](images/rrp/track2.png)
+
+::: aside
+When, Who, Why, What
+
+\
+:::
 
 ## Branches
 
+![](images/rrp/branch.png)
+
+::: aside
 -   Main branch
 -   Experimentation
 -   Developments
 -   Merging
+:::
 
-https://youtu.be/LmqQr-0Z_Dw?si=hrl_ysJDceXkjCrk&t=96
+## GitHub {style="background-color: gray;"}
 
-## GitHub
-
+::: columns
+::: {.column width="50%"}
 -   Profile (store and host) git repos
 -   Enable collaboration across the globe or private
 -   Editorial and fine-grain control
+:::
+
+::: {.column width="50%"}
+![](images/rrp/github.png)
+:::
+:::
 
 ## Git + GitHub
 
-https://youtu.be/ThC3bSs-iZA?si=1c6pIzBiMlbB5v6w&t=31
+![](images/rrp/git_and_github.png)
 
 ## Hubs
 
