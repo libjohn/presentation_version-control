@@ -33,34 +33,31 @@ editor: visual
 
 ## Reproduction
 
-
 \
 
 \
-
 
 Authoring and computation environment should enable the articulation of scholarship within a reproducible context
 
+## Features
 
-##  Features
-
-::: {.fragment}
-- Support composable recombination
-- Accommodate multimedia expression
-- Provide rich reporting expressions
-- Support economical portability and degrade gracefully
-- Support extensibility
-- Ensure transparency
-- Support a documentary-style project history
-- Accommodate change and collaboration
-- Be citable
+::: fragment
+-   Support composable recombination
+-   Accommodate multimedia expression
+-   Provide rich reporting expressions
+-   Support economical portability and degrade gracefully
+-   Support extensibility
+-   Ensure transparency
+-   Support a documentary-style project history
+-   Accommodate change and collaboration
+-   Be citable
 :::
 
 ## Three points
 
-1. Notebooks (Literate Coding)
-2. Version Control (Git & GitHub)
-3. Sharing (Zenodo, Containers)
+1.  Notebooks (Literate Coding)
+2.  Version Control (Git & GitHub)
+3.  Sharing (Zenodo, Containers)
 
 # Notebooks
 
@@ -87,16 +84,11 @@ Authoring and computation environment should enable the articulation of scholars
 
 \
 
-::: {.fragment .fade-in-then-out}
-Using this method, reports expressions (slides, HTML, PDF, dashboards, e-books, etc.) are rendered at code execution
-:::
-
-::: {.fragment .fade-in}
 ::: {.fragment .grow .highlight-blue}
 Reports expressions are rendered at code execution
 :::
-:::
 
+\
 \
 
 <!-- https://github.com/shafayetShafee/bsicons#readme -->
@@ -145,7 +137,7 @@ Reports expressions are rendered at code execution
 -   A system to track how computer files **change over time**
 -   A system that support **collaborative revision**
 
-::: {.fragment}
+::: fragment
 -   More than file synchronization
 -   Assists in project back-ups
 :::
@@ -251,7 +243,6 @@ When, Who, Why, What
 
 \
 
-
 ![](images/rrp/features.png)
 
 ## Basic features
@@ -267,7 +258,6 @@ Git features implemented for distribution
 ## Push
 
 ![](images/rrp/push.png)
-
 
 ## Clone
 
@@ -286,23 +276,20 @@ Git features implemented for distribution
 
 ## Sharing your workspace
 
-**Your** computation workspace 
-(i.e. your laptop, desktop, cloud credentials)
+**Your** computation workspace (i.e. your laptop, desktop, cloud credentials)
 
-. . . 
+. . .
 
 Give someone else your laptop so they can play around with your projects
 
-. . . 
+. . .
 
-- the code, the data, the settings and configurations?
-- Good idea?
+-   the code, the data, the settings and configurations?
+-   Good idea?
 
-. . . 
+. . .
 
 Now you can share a copy of your computational environment
-
-
 
 ## How
 
