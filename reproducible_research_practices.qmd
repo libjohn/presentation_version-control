@@ -33,11 +33,19 @@ editor: visual
 
 ## Reproduction
 
+::: columns
+::: {.column width="50%"}
 \
 
 \
 
 Authoring and computation environment should enable the articulation of scholarship within a reproducible context
+:::
+
+::: {.column width="50%"}
+![[Reproducibility Pyramid ● Little & Lafferty-Hess (2020)]{style="font-size: small"}](images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png){fig-alt="Reproducibility Pyramid.  CC BY John Little & Sophia Lafferty-Hess"}
+:::
+:::
 
 ## Features
 
@@ -231,7 +239,7 @@ When, Who, Why, What
 
 ## Duke specific hubs
 
--   gitlab.oit.duke.edu (netId)
+-   gitlab.oit.duke.edu (NetID)
 -   PACE
 -   Anywhere that data and coding happens.
 
@@ -276,7 +284,9 @@ Git features implemented for distribution
 
 ## Sharing your workspace
 
-**Your** computation workspace (i.e. your laptop, desktop, cloud credentials)
+\
+
+**Your** computation workspace (i.e. your laptop, desktop, cloud)
 
 . . .
 
