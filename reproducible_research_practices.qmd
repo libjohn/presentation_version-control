@@ -77,7 +77,6 @@ Authoring and computation environment should enable the articulation of scholars
 :::
 :::
 
-
 ## Preview
 
 \
@@ -86,11 +85,10 @@ Authoring and computation environment should enable the articulation of scholars
 
 \
 
-{{< bi code-slash color=#eee8d5 size=8rem >}} {{< bi plus color=#574b23 size=6rem >}} {{< bi filetype-sh color=#eee8d5 size=8rem >}}  {{< bi plus color=#574b23 size=6rem >}} {{< bi git color=#eee8d5 size=8rem >}} {{< bi github color=#eee8d5 size=8rem >}} {{< bi archive color=#eee8d5 size=8rem >}} 
+{{< bi code-slash color=#eee8d5 size=8rem >}} {{< bi plus color=#574b23 size=6rem >}} {{< bi filetype-sh color=#eee8d5 size=8rem >}} {{< bi plus color=#574b23 size=6rem >}} {{< bi git color=#eee8d5 size=8rem >}} {{< bi github color=#eee8d5 size=8rem >}} {{< bi archive color=#eee8d5 size=8rem >}}
 
+# Version Control {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position=right}
 
-
-# Version Control
 
 ## Definition
 
@@ -217,7 +215,7 @@ Git features implemented for distribution
 -   Git is used to track changes to your repo
 -   GitHub is used to distribute your git repo and facility collaboration
 
-# Notebooks
+# Notebooks {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position=right}
 
 ## Reproducibility
 
@@ -287,7 +285,7 @@ Reports expressions are rendered at code execution
 -   State of the art reproducibility
     -   21st century **container** for evidence-based, computationally-processed research
 
-# Archive & Publish
+# Archive & Publish  {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position=right}
 
 ## [Analysis]{style="background-color: #002B36; border-radius: 10px; padding: 55px; text-align: center;"} {background-image="images/rrp/anslysis_bugs.png" background-transition="fade" background-size="contain"}
 
@@ -298,54 +296,44 @@ Reports expressions are rendered at code execution
 
 Use graphics tools predicated on the grammar of graphics
 
-![](images/rrp/grammar_of_graphics.png "grammar of graphics examples"){.absolute top="150" left="0"}
-![](images/rrp/ggplot_logo.png "ggplot2 logot"){.absolute bottom="60" left="50" width="100" height="100"}
+![](images/rrp/grammar_of_graphics.png "grammar of graphics examples"){.absolute top="150" left="0"} ![](images/rrp/ggplot_logo.png "ggplot2 logot"){.absolute bottom="60" left="50" width="100" height="100"}
 
 ![](images/rrp/altair_logo.png "Altair logo"){.absolute bottom="60" left="475" width="100" height="100"}
 
 ![](images/rrp/tableau_logo.png "tableau logo"){.absolute bottom="60" right="100" width="100" height="100"}
 
-
-
 ::: footer
 :::
 
-
-## Types of repositories  {style="background-color: #33464A; border-radius: 10px; padding: 15px;"}
+## Types of repositories {style="background-color: #33464A; border-radius: 10px; padding: 15px;"}
 
 ::: columns
 ::: {.column width="50%"}
-
 Archival
 
 [Posterity of milestones]{style="font-size: large;"}
 
 \
 
-
 ![](images/rrp/zenodo.jpg)
 :::
 
-
 ::: {.column width="50%"}
-Workflow 
+Workflow
 
 [Versions / evolution of project]{style="font-size: large;"}
 
 ![}](images/rrp/git.png)
-
-
 :::
 :::
 
 ## How
 
-- Generate report expressions from code
+-   Generate report expressions from code
 -   Combine GitHub releases with Zenodo to archive your milestones and share the interactive computation in a binder Hub
 -   **Zenodo**: general, open repository to deposit research papers, data sets, code, reports and related artifacts and connect to a citable DOI.
 -   **Binder**: package and share reproducible computational environments
     -   mybinder.org (public BinderHub portal)
-
 
 ## Sharing your workspace
 
@@ -382,42 +370,35 @@ Now you can share a copy of your computational environment
 
 ## Container Examples
 
-- [https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme](https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme) 
-- [https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme](https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme) 
+-   <https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme>
+-   <https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme>
 
 ## End to End
 
-::: {.r-fit-text}
-
+::: r-fit-text
 Three minutes on what it looks like
 
-::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
-1. Project with version control
-    - project folder with TIER organization
-    - data (raw)
-    - version control (git)
-2. Coding notebook
-    - data cleaning
-    - natural language explanations
-    - analysis and modeling
-    - visualization
-    - generate report expressions from code
+1.  Project with version control
+    -   project folder with TIER organization
+    -   data (raw)
+    -   version control (git)
+2.  Coding notebook
+    -   data cleaning
+    -   natural language explanations
+    -   analysis and modeling
+    -   visualization
+    -   generate report expressions from code
 :::
 
 ::: {.column width="50%"}
-    
-3. Publish
-    - workflow archived and collaboration enabled via **Git**; shared through  **GitHub** / **GitLab** etc.
-    - Milestones linked to GitHub _releases_; DOIs minted; Posterity archiving at archival repositories (e.g. Zenodo))
-    - **Informal**: web, file sharing, etc.
-        - Whitepapers, slides, dashboards, etc.
-    - **Formal**: vis-a-vis peer reviewed journal arcticles
-
+3.  Publish
+    -   workflow archived and collaboration enabled via **Git**; shared through **GitHub** / **GitLab** etc.
+    -   Milestones linked to GitHub *releases*; DOIs minted; Posterity archiving at archival repositories (e.g. Zenodo)
+    -   **Informal**: web, file sharing, etc.
+        -   Whitepapers, slides, dashboards, etc.
+    -   **Formal**: vis-a-vis peer reviewed journal arcticles
 :::
 :::
-
 :::
-
