@@ -235,7 +235,7 @@ When, Who, Why, What
 
 -   GitHub
 -   GitLab
--   BitBuckent
+-   BitBucket
 
 ## Duke specific hubs
 
