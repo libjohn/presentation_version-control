@@ -63,79 +63,32 @@ Authoring and computation environment should enable the articulation of scholars
 
 ## Three points
 
-1.  Notebooks (Literate Coding)
-2.  Version Control (Git & GitHub)
-3.  Sharing (Zenodo, Containers)
-
-# Notebooks
-
-## Reproducibility
-
--   **Do everything with code!**
-
-    -   Helps reduce repetion errors
-    -   Helps avoid copy/paste barriers
-    -   Orchestrate workflows
-
-## Computational Notebooks
-
--   Authoring environment
-
-    -   Code chunks interspersed with natural language
-    -   aka *Literate Coding*
-
--   Easy to read and compose
-
--   Graceful degradation
-
-## Reports and Expressions
-
+::: columns
+::: {.column width="50%"}
 \
 
-::: {.fragment .grow .highlight-blue}
-Reports expressions are rendered at code execution
+1.  Version Control (Git & GitHub)
+2.  Notebooks (Literate Coding)
+3.  Archiving & Publishing (Zenodo, Containers)
 :::
 
-\
+::: {.column width="50%"}
+![[Reproducibility Pyramid ● Little & Lafferty-Hess (2020)]{style="font-size: small; color: #696969 ;"}](images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png){fig-alt="Reproducibility Pyramid.  CC BY John Little & Sophia Lafferty-Hess"}
+:::
+:::
+
+
+## Preview
+
 \
 
 <!-- https://github.com/shafayetShafee/bsicons#readme -->
 
-{{< bi file-earmark-pdf color=#eee8d5 size=12rem >}} {{< bi filetype-html color=#eee8d5 size=12rem >}} {{< bi speedometer2 color=#eee8d5 size=12rem >}} {{< bi filteyp-pptx color=#eee8d5 size=12rem >}} {{< bi filetype-docx color=#eee8d5 size=12rem >}} {{< bi book color=#eee8d5 size=12rem >}}
+\
 
-## Interactivity and web applications
+{{< bi code-slash color=#eee8d5 size=8rem >}} {{< bi plus color=#574b23 size=6rem >}} {{< bi filetype-sh color=#eee8d5 size=8rem >}}  {{< bi plus color=#574b23 size=6rem >}} {{< bi git color=#eee8d5 size=8rem >}} {{< bi github color=#eee8d5 size=8rem >}} {{< bi archive color=#eee8d5 size=8rem >}} 
 
--   Shiny
--   Flask
--   WebR
--   Plotly Dash
--   ObjservableJS
 
-## [Quarto Notebook in RStudio]{style="background-color: #002B36; border-radius: 10px; padding: 10px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
-
-## [Jupyter Notebooks]{style="background-color: #002B36; border-radius: 5px; padding: 10px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
-
-## Quarto
-
--   A scientific publishing system
--   R, Python, ObservableJS
--   Compose with standard text editors, or basic IDEs
-    -   IDEs: RStudio, Jupyter, VSCode
-
-## Rendered Outputs
-
--   Artifacts that document a body of work
--   Are reproducible and modifiable when data or techniques change
--   Easy to update natural language explanations and re-render outputs
--   Schedule emails based on report parameters
-
-## Summary of benefits
-
--   Using natural language clearly explain data, models, and workflows
--   Reduce dependencies on outside and undocumented steps
--   Ability to expose technical code chunks depending on audience focus
--   State of the art reproducibility
-    -   21st century **container** for evidence-based, computationally-processed research
 
 # Version Control
 
@@ -172,22 +125,6 @@ Reports expressions are rendered at code execution
 -   Operates on at the folder level
 
 \
-:::
-
-## Archival vs version-control {style="background-color: #33464A; border-radius: 10px; padding: 5px;"}
-
-::: columns
-::: {.column width="50%"}
-\
-\
-
-![  Zenodo logo - Posterity of milestones\
-](images/rrp/zenodo.jpg)
-:::
-
-::: {.column width="50%"}
-![Git - track evolution of workflow (i.e. transparency)](images/rrp/git.png)
-:::
 :::
 
 ## Track change
@@ -280,7 +217,135 @@ Git features implemented for distribution
 -   Git is used to track changes to your repo
 -   GitHub is used to distribute your git repo and facility collaboration
 
-# Containers
+# Notebooks
+
+## Reproducibility
+
+-   **Do everything with code!**
+
+    -   Helps reduce repetion errors
+    -   Helps avoid copy/paste barriers
+    -   Orchestrate workflows
+
+## Computational Notebooks
+
+-   Authoring environment
+
+    -   Code chunks interspersed with natural language
+    -   aka *Literate Coding*
+
+-   Easy to read and compose
+
+-   Graceful degradation
+
+## Reports and Expressions
+
+\
+
+::: {.fragment .grow .highlight-blue}
+Reports expressions are rendered at code execution
+:::
+
+\
+\
+
+<!-- https://github.com/shafayetShafee/bsicons#readme -->
+
+{{< bi file-earmark-pdf color=#eee8d5 size=12rem >}} {{< bi filetype-html color=#eee8d5 size=12rem >}} {{< bi speedometer2 color=#eee8d5 size=12rem >}} {{< bi filteyp-pptx color=#eee8d5 size=12rem >}} {{< bi filetype-docx color=#eee8d5 size=12rem >}} {{< bi book color=#eee8d5 size=12rem >}}
+
+## Interactivity and web applications
+
+-   Shiny
+-   Flask
+-   WebR
+-   Plotly Dash
+-   ObjservableJS
+
+## [Quarto Notebook in RStudio]{style="background-color: #002B36; border-radius: 10px; padding: 10px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
+
+## [Jupyter Notebooks]{style="background-color: #002B36; border-radius: 5px; padding: 10px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
+
+## Quarto
+
+-   A scientific publishing system
+-   R, Python, ObservableJS
+-   Compose with standard text editors, or basic IDEs
+    -   IDEs: RStudio, Jupyter, VSCode
+
+## Rendered Outputs
+
+-   Artifacts that document a body of work
+-   Are reproducible and modifiable when data or techniques change
+-   Easy to update natural language explanations and re-render outputs
+-   Schedule emails based on report parameters
+
+## Summary of benefits
+
+-   Using natural language clearly explain data, models, and workflows
+-   Reduce dependencies on outside and undocumented steps
+-   Ability to expose technical code chunks depending on audience focus
+-   State of the art reproducibility
+    -   21st century **container** for evidence-based, computationally-processed research
+
+# Archive & Publish
+
+## [Analysis]{style="background-color: #002B36; border-radius: 10px; padding: 55px; text-align: center;"} {background-image="images/rrp/anslysis_bugs.png" background-transition="fade" background-size="contain"}
+
+::: footer
+:::
+
+## Visualization
+
+Use graphics tools predicated on the grammar of graphics
+
+![](images/rrp/grammar_of_graphics.png "grammar of graphics examples"){.absolute top="150" left="0"}
+![](images/rrp/ggplot_logo.png "ggplot2 logot"){.absolute bottom="60" left="50" width="100" height="100"}
+
+![](images/rrp/altair_logo.png "Altair logo"){.absolute bottom="60" left="475" width="100" height="100"}
+
+![](images/rrp/tableau_logo.png "tableau logo"){.absolute bottom="60" right="100" width="100" height="100"}
+
+
+
+::: footer
+:::
+
+
+## Types of repositories  {style="background-color: #33464A; border-radius: 10px; padding: 15px;"}
+
+::: columns
+::: {.column width="50%"}
+
+Archival
+
+[Posterity of milestones]{style="font-size: large;"}
+
+\
+
+
+![](images/rrp/zenodo.jpg)
+:::
+
+
+::: {.column width="50%"}
+Workflow 
+
+[Versions / evolution of project]{style="font-size: large;"}
+
+![}](images/rrp/git.png)
+
+
+:::
+:::
+
+## How
+
+- Generate report expressions from code
+-   Combine GitHub releases with Zenodo to archive your milestones and share the interactive computation in a binder Hub
+-   **Zenodo**: general, open repository to deposit research papers, data sets, code, reports and related artifacts and connect to a citable DOI.
+-   **Binder**: package and share reproducible computational environments
+    -   mybinder.org (public BinderHub portal)
+
 
 ## Sharing your workspace
 
@@ -301,13 +366,6 @@ Give someone else your laptop so they can play around with your projects
 
 Now you can share a copy of your computational environment
 
-## How
-
--   **Binder**: package and share reproducible computational environments
-    -   mybinder.org (public BinderHub portal)
--   **Zenodo**: general, open repository to deposit research papers, data sets, code, reports and related artifacts and connect to a citable DOI.
--   Combine GitHub releases with Zenodo to archive your milestones and share the interactive computation in a binder Hub
-
 ## Binder Hub
 
 -   Easiest: mybinder.org open and public
@@ -322,7 +380,44 @@ Now you can share a copy of your computational environment
     2.  With DOI, link to ORCID
 3.  Create a publicly launchable, fully functional computation container of your work
 
-## Examples
+## Container Examples
 
--   https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme
--   https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme
+- [https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme](https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme) 
+- [https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme](https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme) 
+
+## End to End
+
+::: {.r-fit-text}
+
+Three minutes on what it looks like
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+1. Project with version control
+    - project folder with TIER organization
+    - data (raw)
+    - version control (git)
+2. Coding notebook
+    - data cleaning
+    - natural language explanations
+    - analysis and modeling
+    - visualization
+    - generate report expressions from code
+:::
+
+::: {.column width="50%"}
+    
+3. Publish
+    - workflow archived and collaboration enabled via **Git**; shared through  **GitHub** / **GitLab** etc.
+    - Milestones linked to GitHub _releases_; DOIs minted; Posterity archiving at archival repositories (e.g. Zenodo))
+    - **Informal**: web, file sharing, etc.
+        - Whitepapers, slides, dashboards, etc.
+    - **Formal**: vis-a-vis peer reviewed journal arcticles
+
+:::
+:::
+
+:::
+
