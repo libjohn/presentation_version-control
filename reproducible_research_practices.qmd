@@ -376,7 +376,7 @@ Now you can share a copy of your computational environment
 ## End to End
 
 ::: r-fit-text
-Three minutes on what it looks like
+
 
 ::: columns
 ::: {.column width="50%"}
