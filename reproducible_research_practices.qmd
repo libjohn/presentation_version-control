@@ -357,31 +357,6 @@ Workflow
 -   **Binder**: package and share reproducible computational environments
     -   mybinder.org (public BinderHub portal)
 
-## Sharing your workspace
-
-\
-
-**Your** computation workspace (i.e. your laptop, desktop, cloud)
-
-. . .
-
-Give someone else your laptop so they can play around with your projects
-
-. . .
-
--   the code, the data, the settings and configurations?
--   Good idea?
-
-. . .
-
-Now you can share a copy of your computational environment
-
-## Binder Hub
-
--   Easiest: mybinder.org open and public
-    -   `quarto use binder`
--   Security demands may push you to use [singularity](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/software/containers/)
-
 ## Steps
 
 1.  Make a [GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) at project milestone(s)
@@ -389,11 +364,6 @@ Now you can share a copy of your computational environment
     1.  Mint a DOI to a GitHub Release (persistent identifier: citation; milestones)
     2.  With DOI, link to ORCID
 3.  Create a publicly launchable, fully functional computation container of your work
-
-## Container Examples
-
--   <https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme>
--   <https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme>
 
 ## End to End
 
@@ -422,6 +392,38 @@ Now you can share a copy of your computational environment
 :::
 :::
 :::
+
+## Sharing your workspace
+
+\
+
+**Your** computation workspace (i.e. your laptop, desktop, cloud)
+
+. . .
+
+Give someone else your laptop so they can play around with your projects
+
+. . .
+
+-   the code, the data, the settings and configurations?
+-   Good idea?
+
+. . .
+
+Now you can share a copy of your computational environment
+
+## Binder Hub
+
+-   Easiest: mybinder.org open and public
+    -   `quarto use binder`
+-   Security demands may push you to use [singularity](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/software/containers/)
+
+## Container Examples
+
+-   <https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme>
+-   <https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme>
+
+
 
 # Repeat for the PDF
 
