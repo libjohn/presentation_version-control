@@ -15,7 +15,7 @@ Presentations about git and GitHub.
 
 ## Slides 
 
-- [Version control: "pick the one right tool" for CDVS's _Tools for Research Data Management_ workshop](https://duke.is/version-control)
+- [Version control: "pick the one right tool" for CDVS's _Tools for Research Data Management_ workshop](https://duke.is/git-slides)
 - [_Reproducible workflow_ for CDVS's _Tools for Research Data Management_ RCR workshop](https://duke.is/workflow)
 
 
