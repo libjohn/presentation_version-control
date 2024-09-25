@@ -33,7 +33,7 @@ editor: visual
 
 ## Reproduction
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 \
 
@@ -45,7 +45,7 @@ Authoring and computation environment should enable the articulation of scholars
 ::: {.column width="50%"}
 ![[Reproducibility Pyramid ● Little & Lafferty-Hess (2020)]{style="font-size: small ; color: #696969 ;"}](images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png){fig-alt="Reproducibility Pyramid.  CC BY John Little & Sophia Lafferty-Hess"}
 :::
-:::
+:::::
 
 ## Features
 
@@ -63,7 +63,7 @@ Authoring and computation environment should enable the articulation of scholars
 
 ## Three points
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 \
 
@@ -75,7 +75,7 @@ Authoring and computation environment should enable the articulation of scholars
 ::: {.column width="50%"}
 ![[Reproducibility Pyramid ● Little & Lafferty-Hess (2020)]{style="font-size: small; color: #696969 ;"}](images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png){fig-alt="Reproducibility Pyramid.  CC BY John Little & Sophia Lafferty-Hess"}
 :::
-:::
+:::::
 
 ## Preview
 
@@ -92,7 +92,6 @@ Authoring and computation environment should enable the articulation of scholars
 ## Characteristics of version control
 
 \
-
 
 -   A system to **manage projects** (repo)
 -   A system to track how computer files **change over time**
@@ -152,7 +151,7 @@ When, Who, Why, What
 
 ## GitHub {style="background-color: #33464A; border-radius: 10px; padding: 5px;"}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Profile (store and host) git repos
 -   Enable collaboration across the globe or private
@@ -162,7 +161,7 @@ When, Who, Why, What
 ::: {.column width="50%"}
 ![](images/rrp/github.png)
 :::
-:::
+:::::
 
 ## Git + GitHub
 
@@ -270,7 +269,7 @@ Report expressions are rendered at code execution
 -   A scientific publishing system
 -   R, Python, ObservableJS
 -   Compose with standard text editors, or basic IDEs
-    -   IDEs: RStudio, Jupyter, VSCode
+    -   IDEs: RStudio, Jupyter, VSCode, Positron
 
 ## Rendered Outputs
 
@@ -326,10 +325,9 @@ Report expressions are rendered at code execution
 
 # Archive & Publish {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position="right"}
 
-
 ## Types of repositories {style="background-color: #33464A; border-radius: 10px; padding: 15px;"}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Archival
 
@@ -347,7 +345,7 @@ Workflow
 
 ![}](images/rrp/git.png)
 :::
-:::
+:::::
 
 ## How
 
@@ -367,8 +365,8 @@ Workflow
 
 ## End to End
 
-::: r-fit-text
-::: columns
+:::::: r-fit-text
+::::: columns
 ::: {.column width="50%"}
 1.  Project with version control
     -   project folder with TIER organization
@@ -390,8 +388,8 @@ Workflow
         -   Whitepapers, slides, dashboards, etc.
     -   **Formal**: vis-a-vis peer reviewed journal arcticles
 :::
-:::
-:::
+:::::
+::::::
 
 ## Sharing your workspace
 
@@ -422,8 +420,6 @@ Now you can share a copy of your computational environment
 
 -   <https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme>
 -   <https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme>
-
-
 
 # Repeat for the PDF
 
