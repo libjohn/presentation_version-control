@@ -1,0 +1,27 @@
+---
+title: "Version Control & Reproducibility "
+subtitle: "Slides for presentations"
+author: 
+  name: "John Little"
+  orcid: 0000-0002-3600-0972
+  affiliation:
+    - name: Duke University Libraries
+      department: Center for Data & Visualization Sciences
+      city: Durham
+      state: NC
+      country: US
+      url:  https://library.duke.edu/data
+institute: "Center for Data & Visualization Sciences"
+date: today
+
+format: 
+  html:
+    theme: sandstone
+    footer:  "[John R Little](https://JohnLittle.info) ● [Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    logo: images/rfun_logo.png
+license: "CC BY"
+editor: source
+---
+
+- [Version control](slides/version_control.html) -- Tools for Research
+- [Reproducible research practices: end-to-end workflow](slides/reproducible_research_practices.html) 
