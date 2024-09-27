@@ -1,0 +1,5 @@
+project:
+  title: "Demo Presentation for Version Control"
+  output-dir: "docs"
+
+editor: visual

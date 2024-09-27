@@ -1,0 +1,450 @@
+---
+title: "Reproducibile workflows"
+subtitle: "Version Control and Computational Notebooks"
+author: 
+  name: "John Little"
+  orcid: 0000-0002-3600-0972
+  affiliation:
+    - name: Duke University Libraries
+      department: Center for Data & Visualization Sciences
+      city: Durham
+      state: NC
+      country: US
+      url:  https://library.duke.edu/data
+institute: "Center for Data & Visualization Sciences"
+date: today
+
+format: 
+  revealjs:
+    #center: true
+    transition: fade
+    background-transition: fade
+    theme: [moon]
+    self-contained: true  
+    footer:  "[John R Little](https://JohnLittle.info) ● [Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    logo: images/rfun_logo.png
+license: "CC BY"
+editor: visual
+---
+
+## Article Production
+
+![](images/rrp/article_widget.jpg "Diagram of a Wikipedia Article by Kevin https://www.flickr.com/photos/63313714@N00/4520308534")
+
+## Reproduction
+
+::::: columns
+::: {.column width="50%"}
+\
+
+\
+
+Authoring and computation environment should enable the articulation of scholarship within a reproducible context
+:::
+
+::: {.column width="50%"}
+![[Reproducibility Pyramid ● Little & Lafferty-Hess (2020)]{style="font-size: small ; color: #696969 ;"}](images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png){fig-alt="Reproducibility Pyramid.  CC BY John Little & Sophia Lafferty-Hess"}
+:::
+:::::
+
+## Features
+
+::: fragment
+-   Support composable recombination
+-   Accommodate multimedia expression
+-   Provide rich reporting expressions
+-   Support economical portability and degrade gracefully
+-   Support extensibility
+-   Ensure transparency
+-   Support a documentary-style project history
+-   Accommodate change and collaboration
+-   Be citable
+:::
+
+## Three points
+
+::::: columns
+::: {.column width="50%"}
+\
+
+1.  Version Control (Git & GitHub)
+2.  Notebooks (Literate Coding)
+3.  Archiving & Publishing (Zenodo, Containers)
+:::
+
+::: {.column width="50%"}
+![[Reproducibility Pyramid ● Little & Lafferty-Hess (2020)]{style="font-size: small; color: #696969 ;"}](images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png){fig-alt="Reproducibility Pyramid.  CC BY John Little & Sophia Lafferty-Hess"}
+:::
+:::::
+
+## Preview
+
+\
+
+<!-- https://github.com/shafayetShafee/bsicons#readme -->
+
+\
+
+{{< bi code-slash color=#eee8d5 size=8rem >}} {{< bi plus color=#574b23 size=6rem >}} {{< bi filetype-sh color=#eee8d5 size=8rem >}} {{< bi plus color=#574b23 size=6rem >}} {{< bi git color=#eee8d5 size=8rem >}} {{< bi github color=#eee8d5 size=8rem >}} {{< bi archive color=#eee8d5 size=8rem >}}
+
+# Version Control {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position="right"}
+
+## Characteristics of version control
+
+\
+
+-   A system to **manage projects** (repo)
+-   A system to track how computer files **change over time**
+-   A system that supports **collaborative revision**
+
+::: fragment
+-   More than file synchronization
+-   Assists in project back-ups
+:::
+
+## Git
+
+-   Free open source
+-   Wildly successful; most broadly implemented
+-   In use across the globe
+-   Use it on any file system
+-   Track any file
+-   Use it in any environment
+
+## Scalable to project size
+
+![](images/rrp/git_scaleability.png)
+
+## Project Repositories
+
+![](images/rrp/project_repos.png)
+
+::: aside
+-   Work on any file system
+-   Operates on at the folder level
+
+\
+:::
+
+## Track change
+
+\
+
+![](images/rrp/track2.png)
+
+::: aside
+When, Who, Why, What
+
+\
+:::
+
+## Branches
+
+![](images/rrp/branch.png)
+
+::: aside
+-   Main branch
+-   Experimentation
+-   Developments
+-   Merging
+:::
+
+## GitHub {style="background-color: #33464A; border-radius: 10px; padding: 5px;"}
+
+::::: columns
+::: {.column width="50%"}
+-   Profile (store and host) git repos
+-   Enable collaboration across the globe or private
+-   Editorial and fine-grain control
+:::
+
+::: {.column width="50%"}
+![](images/rrp/github.png)
+:::
+:::::
+
+## Git + GitHub
+
+![](images/rrp/git_and_github.png)
+
+## Hubs
+
+-   GitHub
+-   GitLab
+-   BitBucket
+
+## Duke specific hubs
+
+-   gitlab.oit.duke.edu (NetID)
+-   PACE
+-   Anywhere that data and coding happens.
+
+## File Distribution and Collaboration
+
+![](images/rrp/file-distribution.png)
+
+## Other project management features
+
+\
+
+![](images/rrp/features.png)
+
+## Basic features
+
+Git features implemented for distribution
+
+-   Push
+-   Public or Private
+-   Clone / Fork
+-   Pull Request
+-   Pull
+
+## Push
+
+![](images/rrp/push.png)
+
+## Clone
+
+![](images/rrp/clone.png)
+
+## Fork / PR
+
+![](images/rrp/fork.png)
+
+## Summary
+
+-   Git is used to track changes to your repo
+-   GitHub is used to distribute your git repo and facilitate collaboration
+
+# Notebooks {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position="right"}
+
+## Reproducibility
+
+-   **Do everything with code!**
+
+    -   Helps reduce repetion errors
+    -   Helps avoid copy/paste barriers
+    -   Orchestrate workflows
+
+## Computational Notebooks
+
+-   Authoring environment
+
+    -   Code chunks interspersed with natural language
+    -   aka *Literate Coding*
+
+-   Easy to read and compose
+
+-   Graceful degradation
+
+## Reports and Expressions
+
+\
+
+::: {.fragment .grow .highlight-blue}
+Report expressions are rendered at code execution
+:::
+
+\
+\
+
+<!-- https://github.com/shafayetShafee/bsicons#readme -->
+
+{{< bi file-earmark-pdf color=#eee8d5 size=12rem >}} {{< bi filetype-html color=#eee8d5 size=12rem >}} {{< bi speedometer2 color=#eee8d5 size=12rem >}} {{< bi filteyp-pptx color=#eee8d5 size=12rem >}} {{< bi filetype-docx color=#eee8d5 size=12rem >}} {{< bi book color=#eee8d5 size=12rem >}}
+
+## Interactivity and web applications
+
+-   Shiny
+-   Flask
+-   WebR
+-   Plotly Dash
+-   ObjservableJS
+
+## [Quarto Notebook in RStudio]{style="background-color: #002B36; border-radius: 10px; padding: 10px; text-align: center;"} {background-image="images/rrp/quarto_notebook.png" background-transition="fade"}
+
+## [Jupyter Notebooks]{style="background-color: #002B36; border-radius: 5px; padding: 10px;"} {background-image="images/rrp/labpreview.png" background-transition="fade"}
+
+## Quarto
+
+-   A scientific publishing system
+-   R, Python, ObservableJS
+-   Compose with standard text editors, or basic IDEs
+    -   IDEs: RStudio, Jupyter, VSCode, Positron
+
+## Rendered Outputs
+
+-   Artifacts that document a body of work
+-   Are reproducible and modifiable when data or techniques change
+-   Easy to update natural language explanations and re-render outputs
+-   Schedule emails based on report parameters
+
+## Summary of benefits
+
+-   Using natural language clearly explain data, models, and workflows
+-   Reduce dependencies on outside and undocumented steps
+-   Ability to expose technical code chunks depending on audience focus
+-   State of the art reproducibility
+    -   21st century **container** for evidence-based, computationally-processed research
+
+# Analysis &<br/>Visualization {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position="right"}
+
+## [Analysis]{style="background-color: #002B36; border-radius: 10px; padding: 55px; text-align: center;"} {background-image="images/rrp/anslysis_bugs.png" background-transition="fade" background-size="contain"}
+
+::: footer
+:::
+
+## Visualization
+
+Use graphics tools predicated on the grammar of graphics
+
+![](images/rrp/grammar_of_graphics.png "grammar of graphics examples"){.absolute top="150" left="0"} ![](images/rrp/ggplot_logo.png "ggplot2 logot"){.absolute bottom="60" left="50" width="100" height="100"}
+
+![](images/rrp/altair_logo.png "Altair logo"){.absolute bottom="60" left="475" width="100" height="100"}
+
+![](images/rrp/tableau_logo.png "tableau logo"){.absolute bottom="60" right="100" width="100" height="100"}
+
+::: footer
+:::
+
+# Reporting {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position="right"}
+
+## 
+
+\
+
+::: {.fragment .grow .highlight-blue}
+Report expressions are rendered at code execution
+:::
+
+\
+\
+
+<!-- https://github.com/shafayetShafee/bsicons#readme -->
+
+{{< bi file-earmark-pdf color=#eee8d5 size=12rem >}} {{< bi filetype-html color=#eee8d5 size=12rem >}} {{< bi speedometer2 color=#eee8d5 size=12rem >}} {{< bi filteyp-pptx color=#eee8d5 size=12rem >}} {{< bi filetype-docx color=#eee8d5 size=12rem >}} {{< bi book color=#eee8d5 size=12rem >}}
+
+# Archive & Publish {background-image="images/rrp/Reproducibility-Pryamid_CC-BY_John-Little.png" background-transition="fade" background-size="contain" background-position="right"}
+
+## GitHub example
+
+-   <https://github.com/libjohn/version_control_demo>
+
+## Types of repositories {style="background-color: #33464A; border-radius: 10px; padding: 15px;"}
+
+::::: columns
+::: {.column width="50%"}
+Archival
+
+[Posterity of milestones]{style="font-size: large;"}
+
+\
+
+![](images/rrp/zenodo.jpg)
+:::
+
+::: {.column width="50%"}
+Workflow
+
+[Versions / evolution of project]{style="font-size: large;"}
+
+![}](images/rrp/git.png)
+:::
+:::::
+
+## How
+
+-   Generate report expressions from code
+-   Combine GitHub releases with Zenodo to archive your milestones and share the interactive computation in a binder Hub
+-   **Zenodo**: general, open repository to deposit research papers, data sets, code, reports and related artifacts and connect to a citable DOI.
+-   **Binder**: package and share reproducible computational environments
+    -   mybinder.org (public BinderHub portal)
+
+## Steps
+
+1.  Make a [GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) at project milestone(s)
+2.  Connect [GitHub to Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+    1.  Mint a DOI to a GitHub Release (persistent identifier: citation; milestones)
+    2.  With DOI, link to ORCID
+3.  Create a publicly launchable, fully functional computation container of your work
+
+## End to End
+
+:::::: r-fit-text
+::::: columns
+::: {.column width="50%"}
+1.  Project with version control
+    -   project folder with TIER organization
+    -   data (raw)
+    -   version control (git)
+2.  Coding notebook
+    -   data cleaning
+    -   natural language explanations
+    -   analysis and modeling
+    -   visualization
+    -   generate report expressions from code
+:::
+
+::: {.column width="50%"}
+3.  Publish
+    -   workflow archived and collaboration enabled via **Git**; shared through **GitHub** / **GitLab** etc.
+    -   Milestones linked to GitHub *releases*; DOIs minted; Posterity archiving at archival repositories (e.g. Zenodo)
+    -   **Informal**: web, file sharing, etc.
+        -   Whitepapers, slides, dashboards, etc.
+    -   **Formal**: vis-a-vis peer reviewed journal arcticles
+:::
+:::::
+::::::
+
+## Sharing your workspace
+
+\
+
+**Your** computation workspace (i.e. your laptop, desktop, cloud)
+
+. . .
+
+Give someone else your laptop so they can play around with your projects
+
+. . .
+
+-   the code, the data, the settings and configurations?
+-   Good idea?
+
+. . .
+
+Now you can share a copy of your computational environment
+
+## Binder Hub
+
+-   Easiest: mybinder.org open and public
+    -   `quarto use binder`
+-   Security demands may push you to use [singularity](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/software/containers/)
+
+## Container Examples
+
+-   <https://github.com/libjohn/workshop_rfun_iterate?tab=readme-ov-file#readme>
+-   <https://github.com/libjohn/workshop_webscraping?tab=readme-ov-file#readme>
+
+# Repeat for the PDF
+
+## End to End - Steps
+
+1.  Project with version control
+    -   project folder with TIER organization
+    -   data (raw)
+    -   version control (git)
+2.  Coding notebook
+    -   data cleaning
+    -   natural language explanations
+    -   analysis and modeling
+    -   visualization
+    -   generate report expressions from code
+
+## End to End - Steps (continued)
+
+3.  Publish
+    -   workflow archived and collaboration enabled via **Git**; shared through **GitHub** / **GitLab** etc.
+    -   Milestones linked to GitHub *releases*; DOIs minted; Posterity archiving at archival repositories (e.g. Zenodo)
+    -   **Informal**: web, file sharing, etc.
+        -   Whitepapers, slides, dashboards, etc.
+    -   **Formal**: vis-a-vis peer reviewed journal arcticles
